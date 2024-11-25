@@ -1,3 +1,8 @@
 {
-  
+  "home": "Home",
+    "prices": "Prices",
+    "salesCall": "Sales Call",
+    "trackShipment": "Track Shipment",
+    "login": "Login",
+    "trackingNumber": "Tracking Number"
 }
