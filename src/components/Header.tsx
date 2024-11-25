@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import SearchIcon from '@mui/icons-material/Search';
-function Header() {
+function Header({ setTrackingNumber }: any) {
   const { t } = useTranslation();
   const language = localStorage.getItem('i18nextLng');
   const [searchNumber, setSearchNumber] = useState<string | null>(null);
@@ -17,6 +17,7 @@ function Header() {
   function handleSearchSubmit(e: React.SyntheticEvent) {
     e.preventDefault();
     /* call API */
+    setTrackingNumber(searchNumber);
   }
   return (
     <header>

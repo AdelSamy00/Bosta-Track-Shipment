@@ -3,11 +3,13 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.tsx';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 import { initReactI18next } from 'react-i18next';
 import en from './i18n/en.json';
 import ar from './i18n/ar.json';
+import { store } from './redux/Store.ts';
 
 i18next.use(initReactI18next).init({
   resources: {
@@ -20,10 +22,12 @@ i18next.use(initReactI18next).init({
 });
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <I18nextProvider i18n={i18next}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </I18nextProvider>
+    <Provider store={store}>
+      <I18nextProvider i18n={i18next}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </I18nextProvider>
+    </Provider>
   </StrictMode>
 );
