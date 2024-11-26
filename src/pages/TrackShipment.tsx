@@ -19,7 +19,6 @@ function TrackShipment() {
       await axios
         .get(`https://tracking.bosta.co/shipments/track/${trackingNumber}`)
         .then((res) => {
-          console.log(res.data);
           setData(res.data);
           dispatch(setShipment(res.data));
         })

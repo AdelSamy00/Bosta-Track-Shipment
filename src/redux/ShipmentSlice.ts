@@ -12,12 +12,9 @@ export const ShipmentSlice = createSlice({
       state.data = action.payload;
       localStorage.setItem('shipment', JSON.stringify(action.payload));
     },
-    getShipment: () => {
-      return JSON.parse(localStorage?.getItem('shipment') as string) ?? [];
-    },
   },
 });
 
-export const { setShipment ,getShipment} = ShipmentSlice.actions;
+export const { setShipment } = ShipmentSlice.actions;
 
 export default ShipmentSlice.reducer;
