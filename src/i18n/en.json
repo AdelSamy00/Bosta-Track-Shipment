@@ -37,5 +37,18 @@
     "September": "September",
     "October": "October",
     "November": "November",
-    "December": "December"
+    "December": "December",
+    "branch": "Branch",
+    "date": "Date",
+    "time": "Time",
+    "details": "Details",
+    "shipmentDetails": "Shipment Details",
+    "nothing": "Nothing",
+    "TICKET_CREATED": "Shipment created",
+    "NOT_YET_SHIPPED": "Not yet shipped",
+    "AVAILABLE_FOR_PICKUP": "Available for pickup",
+    "WAITING_FOR_CUSTOMER_ACTION": "Waiting for customer action",
+    "PACKAGE_RECEIVED": "Package received from the merchant",
+    "OUT_FOR_DELIVERY": "The shipment is out for delivery",
+    "IN_TRANSIT": "In transit"
 }

@@ -2,9 +2,10 @@ import { useSelector } from 'react-redux';
 import './styles/Progress.css';
 import { useTranslation } from 'react-i18next';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import { Shipment } from '../models/ShipmentDataModel';
 function Progress() {
   const { t } = useTranslation();
-  const shipmentData = useSelector(
+  const shipmentData: Shipment = useSelector(
     (state: { shipmentData: any }) => state.shipmentData.data
   );
   const shipmentState = shipmentData?.CurrentStatus?.state;

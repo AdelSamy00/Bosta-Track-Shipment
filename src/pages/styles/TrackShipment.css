@@ -1,9 +1,23 @@
 .main {
   padding: 3rem 6rem;
 }
+.TrackShipmentContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.TrackShipmentTable {
+  width: 70%;
+}
 
 @media screen and (max-width: 950px) {
   .main {
-      padding: 1rem 2rem;
+    padding: 1rem 2rem;
+  }
+  .TrackShipmentContent {
+    flex-wrap: wrap;
+  }
+  .TrackShipmentTable {
+    width: 100%;
   }
 }

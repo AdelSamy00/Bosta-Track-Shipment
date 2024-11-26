@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { Shipment } from '../models/ShipmentDataModel';
 const initialState = {
-  data: JSON.parse(localStorage?.getItem('shipment') as string) ?? [],
+  data: (JSON.parse(localStorage?.getItem('shipment') as string) as Shipment) ?? {},
 };
 
 export const ShipmentSlice = createSlice({
