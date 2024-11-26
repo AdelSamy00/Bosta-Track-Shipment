@@ -50,5 +50,11 @@
     "WAITING_FOR_CUSTOMER_ACTION": "Waiting for customer action",
     "PACKAGE_RECEIVED": "Package received from the merchant",
     "OUT_FOR_DELIVERY": "The shipment is out for delivery",
-    "IN_TRANSIT": "In transit"
+    "deliveryAddress": "Delivery address",
+    "problemWithShipment": "Is there a problem with your shipment?!",
+    "reportProblem": "Report a problem",
+    "IN_TRANSIT": "In transit",
+    "DELIVERY_FAILED": "Delivery failed",
+    "Cancellation - The customer refuses to give the shipment to the star": "The customer refuses to give the shipment to the star",
+    "Uncovered Zone": "Uncovered Zone"
 }

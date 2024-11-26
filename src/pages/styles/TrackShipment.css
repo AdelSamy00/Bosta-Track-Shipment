@@ -10,6 +10,43 @@
   width: 70%;
 }
 
+.addressAndHelp {
+  width: 30%;
+}
+.shipmentAddress {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin-bottom: .5rem;
+  padding: 1rem;
+}
+.shipmentHelp {
+  border: 1px solid #ebe9e9;
+  border-radius: 10px;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+}
+.shipmentHelp img {
+  width: 100px;
+  height: 110px;
+}
+
+.helpContainer p {
+  margin: 8px;
+}
+
+.helpContainer button {
+  width: 100%;
+  background-color: rgb(96%, 0%, 2%);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Cairo';
+}
+
 @media screen and (max-width: 950px) {
   .main {
     padding: 1rem 2rem;
@@ -19,5 +56,32 @@
   }
   .TrackShipmentTable {
     width: 100%;
+  }
+  .addressAndHelp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .addressAndHelp h4 {
+    width: 100%;
+  }
+  .shipmentAddress {
+    width: 45%;
+  }
+  .shipmentHelp {
+    width: 45%;
+}
+}
+
+@media screen and (max-width: 670px) {
+  .addressAndHelp {
+      .shipmentAddress {
+          width: 90%;
+      }
+
+      .shipmentHelp {
+          width: 90%;
+      }
   }
 }

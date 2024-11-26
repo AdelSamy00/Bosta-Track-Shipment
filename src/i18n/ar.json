@@ -49,5 +49,12 @@
     "AVAILABLE_FOR_PICKUP": "متاح للاستلام",
     "WAITING_FOR_CUSTOMER_ACTION": "في انتظار إجراء العميل",
     "PACKAGE_RECEIVED": "تم استلام الشحنة من التاجر",
-    "OUT_FOR_DELIVERY": "الشحنة خرجت للتسليم"
+    "OUT_FOR_DELIVERY": "الشحنة خرجت للتسليم",
+    "deliveryAddress": "عنوان التسليم",
+    "problemWithShipment": "هل يوجد مشكلة في شحنتك؟!",
+    "reportProblem": "ابلاغ عن مشكلة",
+    "IN_TRANSIT": "في المستودع",
+    "DELIVERY_FAILED": "فشل التسليم",
+    "Cancellation - The customer refuses to give the shipment to the star": "تم الغاء الشحنة من التاجر",
+    "Uncovered Zone": "المنطقة خارج التغطية"
 }

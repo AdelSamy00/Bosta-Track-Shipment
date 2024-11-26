@@ -10,4 +10,5 @@ export interface Shipment {
   isEditableShipment: boolean;
   nextWorkingDay: [{dayDate:string,dayName:string}];
   isOnlinePaymentFeatureEnabled: boolean;
+  DeliveryAddress:string;
 }

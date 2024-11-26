@@ -150,7 +150,7 @@ function Header({ setTrackingNumber }: any) {
           <NavLink to="#">{t('login')}</NavLink>
 
           <button className="language" onClick={changeLanguage}>
-            {i18next.language === 'ar' ? 'ENG' : 'ألعربية'}
+            {i18next.language === 'ar' ? 'ENG' : 'العربية'}
           </button>
         </div>
       </nav>
